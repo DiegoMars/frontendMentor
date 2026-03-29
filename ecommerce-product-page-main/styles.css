@@ -1,0 +1,24 @@
+/* Given Styles */
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+:root {
+  /*        */
+  /* Colors */
+  /*        */
+  --color_orange: hsl(26, 100%, 55%);
+  --color_paleOrange: hsl(25, 100%, 94%);
+  --color_darkBlue: hsl(220, 13%, 13%);
+  --color_grayBlue: hsl(220, 14%, 75%);
+  --color_darkGrayBlue: hsl(219, 9%, 45%);
+  --color_lightGrayBlue: hsl(223, 64%, 98%);
+  --color_white: hsl(0, 0%, 100%);
+  --color_black: hsl(0, 0%, 0%); /* (with 75% opacity for lightbox background) */
+}
+
+/*
+Remember: 
+- Mobile: 375px
+- Desktop: 1440px
+*/
+body {
+  font-size: 16px;
+}
